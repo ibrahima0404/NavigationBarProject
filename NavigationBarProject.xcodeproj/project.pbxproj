@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		86ED08DC20A1E6FB007A2F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED08DB20A1E6FB007A2F57 /* AppDelegate.swift */; };
-		86ED08DE20A1E6FB007A2F57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED08DD20A1E6FB007A2F57 /* ViewController.swift */; };
 		86ED08E120A1E6FB007A2F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86ED08DF20A1E6FB007A2F57 /* Main.storyboard */; };
 		86ED08E320A1E6FE007A2F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86ED08E220A1E6FE007A2F57 /* Assets.xcassets */; };
 		86ED08E620A1E6FE007A2F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86ED08E420A1E6FE007A2F57 /* LaunchScreen.storyboard */; };
 		86ED08F120A1E6FE007A2F57 /* NavigationBarProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED08F020A1E6FE007A2F57 /* NavigationBarProjectTests.swift */; };
 		86ED08FC20A1E6FE007A2F57 /* NavigationBarProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED08FB20A1E6FE007A2F57 /* NavigationBarProjectUITests.swift */; };
+		86ED090A20A1EC21007A2F57 /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED090920A1EC21007A2F57 /* Races.swift */; };
+		86ED090C20A1F026007A2F57 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED090B20A1F026007A2F57 /* WelcomeViewController.swift */; };
+		86ED091120A1F26C007A2F57 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091020A1F26C007A2F57 /* FormViewController.swift */; };
+		86ED091320A1F64F007A2F57 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091220A1F64F007A2F57 /* SuccessViewController.swift */; };
+		86ED091520A1FFB3007A2F57 /* CatWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091420A1FFB3007A2F57 /* CatWelcomeViewController.swift */; };
+		86ED091720A23614007A2F57 /* CatFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091620A23614007A2F57 /* CatFormViewController.swift */; };
+		86ED091920A2362D007A2F57 /* CatSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091820A2362D007A2F57 /* CatSuccessViewController.swift */; };
+		86ED091B20A4B1E1007A2F57 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091A20A4B1E1007A2F57 /* Model.swift */; };
+		86ED091D20A788A8007A2F57 /* TextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091C20A788A8007A2F57 /* TextfieldViewController.swift */; };
+		86ED091F20A7A65C007A2F57 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091E20A7A65C007A2F57 /* TestTableViewController.swift */; };
+		86ED092120A7AC1C007A2F57 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED092020A7AC1C007A2F57 /* TableViewCell1.swift */; };
+		86ED092320A7B5A0007A2F57 /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED092220A7B5A0007A2F57 /* TableViewCell2.swift */; };
+		86ED092520A7BE0A007A2F57 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED092420A7BE0A007A2F57 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +48,6 @@
 /* Begin PBXFileReference section */
 		86ED08D820A1E6FB007A2F57 /* NavigationBarProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86ED08DB20A1E6FB007A2F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86ED08DD20A1E6FB007A2F57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86ED08E020A1E6FB007A2F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86ED08E220A1E6FE007A2F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86ED08E520A1E6FE007A2F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,19 @@
 		86ED08F720A1E6FE007A2F57 /* NavigationBarProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86ED08FB20A1E6FE007A2F57 /* NavigationBarProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarProjectUITests.swift; sourceTree = "<group>"; };
 		86ED08FD20A1E6FE007A2F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86ED090920A1EC21007A2F57 /* Races.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Races.swift; sourceTree = "<group>"; };
+		86ED090B20A1F026007A2F57 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		86ED091020A1F26C007A2F57 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		86ED091220A1F64F007A2F57 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		86ED091420A1FFB3007A2F57 /* CatWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatWelcomeViewController.swift; sourceTree = "<group>"; };
+		86ED091620A23614007A2F57 /* CatFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFormViewController.swift; sourceTree = "<group>"; };
+		86ED091820A2362D007A2F57 /* CatSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatSuccessViewController.swift; sourceTree = "<group>"; };
+		86ED091A20A4B1E1007A2F57 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		86ED091C20A788A8007A2F57 /* TextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldViewController.swift; sourceTree = "<group>"; };
+		86ED091E20A7A65C007A2F57 /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		86ED092020A7AC1C007A2F57 /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		86ED092220A7B5A0007A2F57 /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		86ED092420A7BE0A007A2F57 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +101,9 @@
 		86ED08CF20A1E6FB007A2F57 = {
 			isa = PBXGroup;
 			children = (
+				86ED090F20A1F1DC007A2F57 /* Controller */,
+				86ED090E20A1F192007A2F57 /* View */,
+				86ED090D20A1F185007A2F57 /* Model */,
 				86ED08DA20A1E6FB007A2F57 /* NavigationBarProject */,
 				86ED08EF20A1E6FE007A2F57 /* NavigationBarProjectTests */,
 				86ED08FA20A1E6FE007A2F57 /* NavigationBarProjectUITests */,
@@ -98,10 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				86ED08DB20A1E6FB007A2F57 /* AppDelegate.swift */,
-				86ED08DD20A1E6FB007A2F57 /* ViewController.swift */,
-				86ED08DF20A1E6FB007A2F57 /* Main.storyboard */,
-				86ED08E220A1E6FE007A2F57 /* Assets.xcassets */,
-				86ED08E420A1E6FE007A2F57 /* LaunchScreen.storyboard */,
 				86ED08E720A1E6FE007A2F57 /* Info.plist */,
 			);
 			path = NavigationBarProject;
@@ -123,6 +146,43 @@
 				86ED08FD20A1E6FE007A2F57 /* Info.plist */,
 			);
 			path = NavigationBarProjectUITests;
+			sourceTree = "<group>";
+		};
+		86ED090D20A1F185007A2F57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86ED090920A1EC21007A2F57 /* Races.swift */,
+				86ED091A20A4B1E1007A2F57 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86ED090E20A1F192007A2F57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86ED08DF20A1E6FB007A2F57 /* Main.storyboard */,
+				86ED092020A7AC1C007A2F57 /* TableViewCell1.swift */,
+				86ED08E220A1E6FE007A2F57 /* Assets.xcassets */,
+				86ED08E420A1E6FE007A2F57 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86ED090F20A1F1DC007A2F57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86ED090B20A1F026007A2F57 /* WelcomeViewController.swift */,
+				86ED091020A1F26C007A2F57 /* FormViewController.swift */,
+				86ED091220A1F64F007A2F57 /* SuccessViewController.swift */,
+				86ED091420A1FFB3007A2F57 /* CatWelcomeViewController.swift */,
+				86ED091620A23614007A2F57 /* CatFormViewController.swift */,
+				86ED091820A2362D007A2F57 /* CatSuccessViewController.swift */,
+				86ED091C20A788A8007A2F57 /* TextfieldViewController.swift */,
+				86ED091E20A7A65C007A2F57 /* TestTableViewController.swift */,
+				86ED092220A7B5A0007A2F57 /* TableViewCell2.swift */,
+				86ED092420A7BE0A007A2F57 /* TableViewCell.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +316,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86ED08DE20A1E6FB007A2F57 /* ViewController.swift in Sources */,
+				86ED091F20A7A65C007A2F57 /* TestTableViewController.swift in Sources */,
+				86ED091B20A4B1E1007A2F57 /* Model.swift in Sources */,
+				86ED090C20A1F026007A2F57 /* WelcomeViewController.swift in Sources */,
+				86ED092120A7AC1C007A2F57 /* TableViewCell1.swift in Sources */,
+				86ED091920A2362D007A2F57 /* CatSuccessViewController.swift in Sources */,
+				86ED092520A7BE0A007A2F57 /* TableViewCell.swift in Sources */,
+				86ED090A20A1EC21007A2F57 /* Races.swift in Sources */,
+				86ED091120A1F26C007A2F57 /* FormViewController.swift in Sources */,
+				86ED091320A1F64F007A2F57 /* SuccessViewController.swift in Sources */,
+				86ED091520A1FFB3007A2F57 /* CatWelcomeViewController.swift in Sources */,
 				86ED08DC20A1E6FB007A2F57 /* AppDelegate.swift in Sources */,
+				86ED091D20A788A8007A2F57 /* TextfieldViewController.swift in Sources */,
+				86ED092320A7B5A0007A2F57 /* TableViewCell2.swift in Sources */,
+				86ED091720A23614007A2F57 /* CatFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
