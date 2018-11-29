@@ -463,51 +463,6 @@
             </objects>
             <point key="canvasLocation" x="454" y="886"/>
         </scene>
-        <!--Textfield View Controller-->
-        <scene sceneID="HaB-wf-Tl9">
-            <objects>
-                <viewController id="5WS-4a-qXv" customClass="TextfieldViewController" customModule="NavigationBarProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="1sR-H5-JMs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mhr-xa-hXD">
-                                <rect key="frame" x="16" y="104" width="343" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <connections>
-                                    <outlet property="delegate" destination="5WS-4a-qXv" id="Rjc-Ee-6Gl"/>
-                                </connections>
-                            </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Lorem ipsum dolor sit er elit lamet, consectetaur " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vQy-Aq-sQ5">
-                                <rect key="frame" x="16" y="164" width="343" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.67450980390000004" green="0.42745098040000001" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <connections>
-                                    <outlet property="delegate" destination="5WS-4a-qXv" id="yHg-pe-FFE"/>
-                                </connections>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="mhr-xa-hXD" firstAttribute="leading" secondItem="oDW-XI-yiX" secondAttribute="leading" constant="16" id="DhL-fa-uc5"/>
-                            <constraint firstItem="mhr-xa-hXD" firstAttribute="top" secondItem="oDW-XI-yiX" secondAttribute="top" constant="60" id="ScI-bq-rRy"/>
-                            <constraint firstItem="oDW-XI-yiX" firstAttribute="trailing" secondItem="mhr-xa-hXD" secondAttribute="trailing" constant="16" id="U1R-FR-XRV"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="oDW-XI-yiX"/>
-                    </view>
-                    <connections>
-                        <outlet property="textFieldTest" destination="mhr-xa-hXD" id="jJi-Xg-Lmx"/>
-                        <outlet property="textViewTest" destination="vQy-Aq-sQ5" id="BpB-74-6IL"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mOT-b0-O7c" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1690.4000000000001" y="861.57635467980299"/>
-        </scene>
         <!--Form View Controller-->
         <scene sceneID="g6u-pd-gEQ">
             <objects>

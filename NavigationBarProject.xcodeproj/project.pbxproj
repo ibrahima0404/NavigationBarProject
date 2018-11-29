@@ -21,7 +21,6 @@
 		86ED091720A23614007A2F57 /* CatFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091620A23614007A2F57 /* CatFormViewController.swift */; };
 		86ED091920A2362D007A2F57 /* CatSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091820A2362D007A2F57 /* CatSuccessViewController.swift */; };
 		86ED091B20A4B1E1007A2F57 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091A20A4B1E1007A2F57 /* Model.swift */; };
-		86ED091D20A788A8007A2F57 /* TextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED091C20A788A8007A2F57 /* TextfieldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +61,6 @@
 		86ED091620A23614007A2F57 /* CatFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFormViewController.swift; sourceTree = "<group>"; };
 		86ED091820A2362D007A2F57 /* CatSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatSuccessViewController.swift; sourceTree = "<group>"; };
 		86ED091A20A4B1E1007A2F57 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		86ED091C20A788A8007A2F57 /* TextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +166,6 @@
 				86ED091420A1FFB3007A2F57 /* CatWelcomeViewController.swift */,
 				86ED091620A23614007A2F57 /* CatFormViewController.swift */,
 				86ED091820A2362D007A2F57 /* CatSuccessViewController.swift */,
-				86ED091C20A788A8007A2F57 /* TextfieldViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -312,7 +309,6 @@
 				86ED091320A1F64F007A2F57 /* SuccessViewController.swift in Sources */,
 				86ED091520A1FFB3007A2F57 /* CatWelcomeViewController.swift in Sources */,
 				86ED08DC20A1E6FB007A2F57 /* AppDelegate.swift in Sources */,
-				86ED091D20A788A8007A2F57 /* TextfieldViewController.swift in Sources */,
 				86ED091720A23614007A2F57 /* CatFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
